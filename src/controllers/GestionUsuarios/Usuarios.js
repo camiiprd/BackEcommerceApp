@@ -1,5 +1,5 @@
 import { pool } from "../../db.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { TOKEN_SECRET } from "../../config.js";
 import { createAccesToken } from "../../libs/createAccessToken.js";
